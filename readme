@@ -1,1 +1,18 @@
-first commit
+1. Task 1 - Case Study
+-> Please refer to Task 1 - Case Study.docx attached for answers relating to case study
+
+2.Task 2 - Tech Exercise
+-> BDD Framework
+	1. Feature files -> /assessmentProject/src/test/resources/features
+	2. Configuration folder-> /assessmentProject/src/test/resources/config
+	3. Junit Runner -> /assessmentProject/src/test/java/Runners/JunitRunner.java
+	4. Chromedriver -> Please provide the path of the chrome driver in the config 				file- variable - "driverPath" 
+		        Config file path --> /assessmentProject/src/test/resources/config/					    assessmentProject.properties
+	5. Reports -> /assessmentProject/target/cucumber-reports/index.html
+	6. Log file (API response) -> /assessmentProject/Logs/								Assessment_Automation_Logs.log
+ Run the Junit Runner file providing the tags
+ Testcase 1 (UI)-> TC01_ApplyForNumberPlates
+ Testcase 2 (API)-> @TC02_WeatherbitAPI
+
+
+

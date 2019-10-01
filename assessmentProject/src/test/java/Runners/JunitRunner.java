@@ -15,5 +15,6 @@ import cucumber.api.junit.Cucumber;
     plugin 	= { "pretty", "html:target/cucumber-reports" }
 )
 public class JunitRunner {
+
 	
 }
