@@ -13,7 +13,7 @@ public interface AssessmentProjectConfig extends Config {
 	String getServiceNSWGOVURL();
 	
 	@Key("driverPath")
-	@DefaultValue("/Users/swathishetty/Documents/Swathi/Personal/Assessment/assessmentProject/assessmentProject/chromedriver")
+	@DefaultValue("<Put the driver Path here>")
 	String getDriverPath();
 	
 	
@@ -22,7 +22,7 @@ public interface AssessmentProjectConfig extends Config {
 	String getBaseurl();
 	
 	@Key("weatherbit.apitoken")
-	@DefaultValue("1cd51bfd2f51498d9db5d613ff68eb82")
+	@DefaultValue("<Put the token here>")
 	String getApitoken();
 	
 	@Key("weatherbit.currentWeather")
