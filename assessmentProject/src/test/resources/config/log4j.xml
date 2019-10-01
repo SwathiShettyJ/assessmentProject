@@ -12,7 +12,7 @@
 </appender>
 <appender name="fileAppender" class="org.apache.log4j.RollingFileAppender">
 <param name="append" value="false"/>
-<param name="file" value="Logs/Webliv_Automation_Logs.log"/>
+<param name="file" value="Logs/Assessment_Automation_Logs.log"/>
 <layout class="org.apache.log4j.PatternLayout">
 <param name="ConversionPattern" value="%d{dd-MM-yyyy HH:mm:ss}%x %-5p[%c{1}]: %m%n"/>
 </layout>

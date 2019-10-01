@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
     features   = "src/test/resources/features",
     monochrome = true,
     glue       = "com/automation/stepDefinition",
-    tags	   = "@TC01_ApplyForNumberPlates",
+    tags	   = "@TC01_ApplyForNumberPlates,@TC02_WeatherbitAPI",
     plugin 	= { "pretty", "html:target/cucumber-reports" }
 )
 public class JunitRunner {

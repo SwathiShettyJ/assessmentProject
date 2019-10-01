@@ -16,6 +16,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.automation.configReader.AssessmentProjectConfig;
 
@@ -131,6 +133,8 @@ public class TC01_ApplyForNumberPlateStepDefinition extends HtmlElement  {
 	
 	@Then("^verify and click on service centre - (.*)$")
 	public void verifyAndClickOnServiceCentre(String serviceCentreName){
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.partialLinkText(serviceCentreName)));
 		WebElement serviceCentre= driver.findElement(By.partialLinkText(serviceCentreName));
 		assertTrue(serviceCentre.isDisplayed());
 		serviceCentre.click();

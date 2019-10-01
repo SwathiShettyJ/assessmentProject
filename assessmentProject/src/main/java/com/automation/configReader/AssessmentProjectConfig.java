@@ -18,7 +18,7 @@ public interface AssessmentProjectConfig extends Config {
 	
 	
 	@Key("weatherbit.baseurl")
-	@DefaultValue("https://www.weatherbit.io/api/swaggerui/weather-api-v2#!/")
+	@DefaultValue("http://api.weatherbit.io/v2.0/")
 	String getBaseurl();
 	
 	@Key("weatherbit.apitoken")
